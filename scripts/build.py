@@ -79,6 +79,20 @@ def esc(value: str) -> str:
     return html.escape(value, quote=True)
 
 
+def require_https(url, label: str) -> None:
+    text = str(url)
+    if text.startswith("http://"):
+        die(f"{label} must use https://, not http://")
+    if not text.startswith("https://"):
+        die(f"{label} must be an https URL")
+
+
+def outbound_rel(sponsored: bool = False) -> str:
+    parts = ["sponsored"] if sponsored else []
+    parts.extend(("noopener", "noreferrer"))
+    return " ".join(parts)
+
+
 def human_date(iso: str) -> str:
     year, month, day = iso.split("-")
     return f"{MONTHS[int(month) - 1]} {int(day)}, {year}"
@@ -115,6 +129,8 @@ BASE = SITE["base_path"].rstrip("/")
 ORIGIN = SITE["origin"].rstrip("/")
 if not BASE.startswith("/"):
     die("base_path must start with /")
+if not ORIGIN.startswith("https://"):
+    die("data/site.json origin must be an https URL")
 
 
 def apply_base(value):
@@ -148,12 +164,17 @@ def inline(text: str) -> str:
     for match in LINK_RE.finditer(text):
         pieces.append(esc(text[last:match.start()]))
         url = match.group(2)
+        label = esc(match.group(1))
         if url.startswith("/"):
             if url != BASE + "/" and not url.startswith(BASE + "/"):
                 die(f"internal link is outside {BASE}: {url}")
-        elif not url.startswith(("https://", "http://")):
+            pieces.append(f'<a href="{esc(url)}">{label}</a>')
+        elif url.startswith("http://"):
+            die(f"link must use https://, not http://: {url}")
+        elif url.startswith("https://"):
+            pieces.append(f'<a href="{esc(url)}" rel="{outbound_rel()}">{label}</a>')
+        else:
             die(f"unsupported link: {url}")
-        pieces.append(f'<a href="{esc(url)}">{esc(match.group(1))}</a>')
         last = match.end()
     pieces.append(esc(text[last:]))
     return "".join(pieces)
@@ -175,6 +196,7 @@ if not isinstance(PARTNERS, dict):
     die("data/affiliates.json partners must be an object")
 for key, partner in PARTNERS.items():
     require(partner, ["name", "url"], f"affiliate {key}")
+    require_https(partner["url"], f"affiliate {key} url")
     aid = str(partner.get("affiliate_id", "")).strip()
     param = str(partner.get("affiliate_param", "")).strip()
     if bool(aid) != bool(param):
@@ -250,8 +272,7 @@ def load_cities() -> list[dict]:
             if not SLUG_RE.match(biz["id"]):
                 die(f"{blabel} {biz['name']}: id must be a slug")
             for field in ("website", "source_url"):
-                if not str(biz[field]).startswith(("https://", "http://")):
-                    die(f"{biz['name']}: {field} must be an http(s) URL")
+                require_https(biz[field], f"{biz['name']} {field}")
             strings(biz["formats"], f"{biz['name']} formats")
             strings(biz["notes"], f"{biz['name']} notes")
             if biz.get("phone"):
@@ -262,6 +283,7 @@ def load_cities() -> list[dict]:
                 require(address, ["street", "locality", "region", "postal_code"], f"{biz['name']} address")
             for extra in biz.get("extra_sources", []):
                 require(extra, ["label", "url"], f"{biz['name']} extra source")
+                require_https(extra["url"], f"{biz['name']} extra source")
             for line in biz.get("price_lines", []):
                 require(line, ["label", "value"], f"{biz['name']} price line")
         cities.append(city)
@@ -303,10 +325,17 @@ for service in SERVICES:
     )
     strings(service["details"], f"{service['name']} details")
     strings(service["formats"], f"{service['name']} formats")
+    require_https(service["url"], f"{service['name']} url")
+    for source in service["sources"]:
+        require(source, ["label", "url"], f"{service['name']} source")
+        require_https(source["url"], f"{service['name']} source")
     visit_url(service)
 
 
 def jsonld(graph: list[dict]) -> str:
+    # application/ld+json is a data block, not a classic script. HTML returns
+    # before the CSP inline check, so script-src 'none' in templates/page.html
+    # leaves this element in the DOM and still blocks executable JavaScript.
     payload = {"@context": "https://schema.org", "@graph": graph}
     raw = json.dumps(payload, ensure_ascii=False, indent=2).replace("<", "\\u003c")
     return f'<script type="application/ld+json">\n{raw}\n</script>'
@@ -587,7 +616,10 @@ def source_links(pairs: list[tuple[str, str]]) -> str:
         if url in seen:
             continue
         seen.add(url)
-        items.append(f'<li><a href="{esc(url)}">{esc(label)}</a></li>')
+        require_https(url, f"source link {label}")
+        items.append(
+            f'<li><a href="{esc(url)}" rel="{outbound_rel()}">{esc(label)}</a></li>'
+        )
     return f'<ul class="sources">{"".join(items)}</ul>'
 
 
@@ -780,7 +812,7 @@ def render_mail() -> str:
     schema_items = []
     for index, service in enumerate(SERVICES, start=1):
         url, sponsored = visit_url(service)
-        rel = ' rel="sponsored noopener"' if sponsored else ' rel="noopener"'
+        rel = outbound_rel(sponsored)
         if service.get("affiliate_key") and sponsored:
             link_note = '<span class="meta-note">(Affiliate link)</span>'
         elif service.get("affiliate_key"):
@@ -806,7 +838,7 @@ def render_mail() -> str:
             f'<p>{esc(service["summary"])}</p>'
             f'<ul class="chips">{chips}</ul>'
             f'{paragraphs(service["details"])}'
-            f'<p><a href="{esc(url)}"{rel}>Visit {esc(service["name"])}</a> {link_note}</p>'
+            f'<p><a href="{esc(url)}" rel="{rel}">Visit {esc(service["name"])}</a> {link_note}</p>'
             f'<h3>Sources checked {esc(human_date(SITE["checked"]))}</h3>'
             f'{source_links(pairs)}'
             f'</article>'
@@ -1001,8 +1033,17 @@ def output_path(url_path: str) -> Path:
     return ROOT / relative / "index.html"
 
 
+REFERRER_META = '<meta name="referrer" content="strict-origin-when-cross-origin">'
+CSP_META = (
+    '<meta http-equiv="Content-Security-Policy" content="default-src \'self\'; '
+    "img-src 'self' data:; style-src 'self'; script-src 'none'; "
+    "object-src 'none'; base-uri 'self'; form-action 'none'\">"
+)
+
+
 def check_output(pages: list[str]) -> None:
     hrefs = re.compile(r'href="([^"]+)"')
+    anchors = re.compile(r"<a\b[^>]*>")
     problems = []
     for relative in pages:
         text = (ROOT / relative).read_text(encoding="utf-8")
@@ -1012,20 +1053,44 @@ def check_output(pages: list[str]) -> None:
             problems.append(f"{relative} missing canonical")
         if "<title>" not in text or 'name="description"' not in text:
             problems.append(f"{relative} missing title or description")
+        if REFERRER_META not in text:
+            problems.append(f"{relative} missing referrer policy")
+        if CSP_META not in text:
+            problems.append(f"{relative} missing Content-Security-Policy")
+        if "script-src 'none'" not in text:
+            problems.append(f"{relative} CSP does not set script-src 'none'")
         if "googletagmanager" in text or "google-analytics" in text or "fonts.googleapis" in text:
             problems.append(f"{relative} includes an external tracker or font")
+        if 'href="http://' in text or "href='http://" in text:
+            problems.append(f"{relative} has an http:// link")
         for match in re.finditer(r'<script(?![^>]*type="application/ld\+json")', text):
             problems.append(f"{relative} has a non-JSON-LD script")
             break
+        for tag in anchors.findall(text):
+            href_match = re.search(r'href="([^"]*)"', tag)
+            if not href_match or not href_match.group(1).startswith("https://"):
+                continue
+            rel_match = re.search(r'rel="([^"]*)"', tag)
+            rel_parts = rel_match.group(1).split() if rel_match else []
+            if "noopener" not in rel_parts or "noreferrer" not in rel_parts:
+                problems.append(
+                    f"{relative} outbound link missing noopener noreferrer: {href_match.group(1)}"
+                )
         for raw in hrefs.findall(text):
-            if raw.startswith(BASE):
+            if raw.startswith("http://"):
+                problems.append(f"{relative} has an http:// link: {raw}")
+            elif raw.startswith(BASE):
                 target = output_path(raw.split("#", 1)[0])
                 if not target.exists():
                     problems.append(f"{relative} links to missing {raw}")
             elif raw.startswith("/"):
                 problems.append(f"{relative} has a root link outside {BASE}: {raw}")
         for blob in re.findall(r'<script type="application/ld\+json">\n(.*?)\n</script>', text, re.S):
-            json.loads(blob)
+            parsed = json.loads(blob)
+            if "http://" in blob:
+                problems.append(f"{relative} JSON-LD contains an http:// URL")
+            if parsed.get("@context") != "https://schema.org":
+                problems.append(f"{relative} JSON-LD context is not https://schema.org")
     robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
     if "Sitemap:" not in robots or BASE not in robots:
         problems.append("robots.txt is missing the sitemap URL")
@@ -1042,8 +1107,22 @@ def check_output(pages: list[str]) -> None:
     if not (ROOT / ".nojekyll").exists():
         problems.append(".nojekyll is missing")
     joined = "\n".join((ROOT / rel).read_text(encoding="utf-8") for rel in pages)
-    if "affiliate_id=" in joined or "?aff=" in joined:
+    any_affiliate_id = any(partner["affiliate_id"] for partner in PARTNERS.values())
+    if not any_affiliate_id and ("affiliate_id=" in joined or "?aff=" in joined):
         problems.append("an affiliate query was written even though IDs are empty")
+    mail = (ROOT / "mail-in" / "index.html").read_text(encoding="utf-8")
+    if not any_affiliate_id and 'rel="sponsored' in mail:
+        problems.append("mail-in marks a link sponsored while every affiliate_id is empty")
+    for service in SERVICES:
+        url, sponsored = visit_url(service)
+        expected = (
+            f'<a href="{esc(url)}" rel="{outbound_rel(sponsored)}">'
+            f'Visit {esc(service["name"])}</a>'
+        )
+        if expected not in mail:
+            problems.append(
+                f"mail-in visit link for {service['name']} is missing rel={outbound_rel(sponsored)}"
+            )
     if problems:
         die("\n".join(problems))
 

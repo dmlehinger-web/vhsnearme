@@ -41,7 +41,7 @@ A nightly job can follow these steps without inventing anything else.
    | `id` | Unique slug inside the file, such as `some-shop-austin`. |
    | `name` | The name on their site. |
    | `area` | Neighborhood or city they operate in. |
-   | `website` | The page a customer should open. Must be `http://` or `https://`. |
+   | `website` | The page a customer should open. Must be `https://`. `http://` fails the build. |
    | `source_url` | The page you took the facts from. Often the same as `website`. |
    | `source_label` | Short name of that page. |
    | `formats` | Formats their page actually names. Do not add a format they never mention. |
