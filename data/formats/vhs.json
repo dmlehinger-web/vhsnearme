@@ -1,0 +1,47 @@
+{
+  "slug": "vhs",
+  "order": 1,
+  "nav_label": "VHS",
+  "title": "VHS to digital",
+  "meta_title": "VHS to digital: what to know before you convert",
+  "meta_description": "What VHS and VHS-C are, why damaged tapes should not go into a VCR, and what to ask a transfer shop before you pay.",
+  "kicker": "Format guide",
+  "lede": "VHS is the large black cassette from the late 1970s through the 2000s. A useful transfer gives you a file you can copy, and it gives you the original tape back. A higher price does not recover picture detail the tape never recorded.",
+  "sections": [
+    {
+      "heading": "VHS and VHS-C",
+      "paragraphs": [
+        "A common blank was labeled T-120, about two hours at the fastest speed families actually used. Many home recordings are longer because the camcorder or VCR was set to a slower speed. Ask the shop whether a long tape is one price or a price per hour.",
+        "VHS-C is the smaller cassette that fit in a camcorder. It is the same kind of tape. It plays in a full-size VHS deck with an adapter. Compact tapes are easier to jam. Tell the shop you have VHS-C so they do not quote you for a format they do not run.",
+        "S-VHS looks like VHS and is sharper. A deck that is only a consumer VHS machine may play it as ordinary VHS or not play it well. If the label says S-VHS, say so when you call."
+      ]
+    },
+    {
+      "heading": "What the picture can and cannot be",
+      "paragraphs": [
+        "VHS is standard definition, on the order of 240 lines of detail, which is softer than a DVD. A careful transfer keeps the frames stable, keeps the audio in sync, and saves a file a modern TV or phone can open. Upscaling can make that file look a bit smoother on a large television. It does not invent faces, text, or color that the tape never held.",
+        "The file you want is a normal video file, usually MP4, that you can copy to a drive and to a second place outside your house. A DVD is fine as an extra for a living-room player. One DVD holds roughly two hours, and a recorded DVD is a weak only copy."
+      ]
+    },
+    {
+      "heading": "Do not play a sick tape",
+      "paragraphs": [
+        "Binder breakdown, mold, and stretched tape are common in boxes that lived in a Texas attic or a damp garage. Warning signs are white or green fuzz on the tape pack, powder in the window, a musty smell, a door that will not open, or a squeal as soon as the tape moves.",
+        "Stop if you hear that squeal. A dirty or misaligned video head can scrape the magnetic coating off. Put the tape back in its case, keep it out of the attic, and take it to a shop that will inspect it before playback. Upright storage in a cool, dry room is the right holding pattern. This guide is not a repair manual."
+      ]
+    },
+    {
+      "heading": "What to ask, and what to pay attention to",
+      "bullets": [
+        "Is the price per cassette or per minute, and what happens past two hours?",
+        "Do they inspect and, if needed, repair a snapped or moldy tape, and is that a separate fee?",
+        "Do you get an MP4 (or another file you can copy) and the original cassette?",
+        "How long is the current turnaround for the number of tapes you have?",
+        "Will they refuse copyrighted movies and recorded TV? They should."
+      ],
+      "paragraphs": [
+        "Local Dallas–Fort Worth rates that shops actually publish are on the [Dallas–Fort Worth page](/vhsnearme/cities/dallas-fort-worth/). National kit and per-tape prices are on the [mail-in comparison](/vhsnearme/mail-in/). Those pages name the source for each number."
+      ]
+    }
+  ]
+}

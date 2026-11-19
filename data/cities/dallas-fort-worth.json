@@ -1,0 +1,263 @@
+{
+  "slug": "dallas-fort-worth",
+  "name": "Dallas–Fort Worth",
+  "state": "TX",
+  "state_name": "Texas",
+  "areas": ["Dallas", "Fort Worth", "Flower Mound", "Lewisville", "Denton", "Richardson"],
+  "meta_title": "Dallas–Fort Worth VHS and photo transfer",
+  "meta_description": "Local VHS, camcorder, film, and photo digitizing in Dallas–Fort Worth, including Flower Mound, Lewisville, and Denton. Prices only when the shop publishes them.",
+  "intro": [
+    "Dallas–Fort Worth is large enough that “a shop in the Metroplex” can mean an hour in the car. This page covers businesses whose own sites offer tape, film, or photo transfer and that sit in, or explicitly serve, Dallas, Fort Worth, Flower Mound, Lewisville, Denton, and Richardson.",
+    "Call before you drive. The hours below are copied from the business site and still go stale. Ask whether they can play your exact format, what a damaged tape costs, and whether you leave with a file you can copy. If you would rather ship a mixed box, use the mail-in comparison. Shipping the only copy of a wedding tape is a real risk: photograph the labels first."
+  ],
+  "checked": "2026-11-19",
+  "businesses": [
+    {
+      "id": "home-video-studio-flower-mound",
+      "name": "Home Video Studio",
+      "area": "Flower Mound",
+      "address": {
+        "street": "2913 Elmridge Dr.",
+        "locality": "Flower Mound",
+        "region": "TX",
+        "postal_code": "75022"
+      },
+      "phone": "(945) 295-6177",
+      "phone_e164": "+19452956177",
+      "website": "https://www.homevideostudio.com/flowermound/",
+      "source_url": "https://www.homevideostudio.com/flowermound/",
+      "source_label": "Home Video Studio Flower Mound",
+      "formats": ["VHS", "VHS-C", "Hi8", "Video8", "MiniDV", "Betamax", "8mm film", "Super 8", "16mm film", "photos", "slides", "negatives", "audio"],
+      "service_mode": "Local drop-off",
+      "price_summary": "Call for pricing",
+      "turnaround": "Not published — call to ask",
+      "delivery": "Digital Video Archive, cloud folder, USB or thumb drive, and a DVD per VHS tape",
+      "hours": "Monday–Friday 9:00 a.m.–11:30 a.m. and 1:30 p.m.–5:30 p.m.; Saturday 11:00 a.m.–2:00 p.m.",
+      "notes": [
+        "The Flower Mound page is written by owner Bill Burrow. He says he personally handles VHS, VHS-C, Hi8, Video8, MiniDV, 8mm and Super 8, photos, slides, and audio at this studio, and that customers can also drop off Betamax, 16mm, negatives, U-matic, PAL or SECAM VHS, audio cassette, reel-to-reel, and DAT.",
+        "Digital delivery named on the page: Digital Video Archive, a secure cloud folder, or a USB or thumb drive. The page says each VHS tape can also be put on its own DVD, and that the studio can repair some damaged VHS before that transfer.",
+        "The page lists local drop-off and says it serves Flower Mound, Lewisville, Highland Village, Argyle, Grapevine, Coppell, Frisco, Keller, Fort Worth, Denton, Southlake, and nearby North Texas. It does not publish a dollar price. The page says to call (945) 295-6177."
+      ]
+    },
+    {
+      "id": "dead-set-digital",
+      "name": "Dead Set Digital",
+      "area": "Flower Mound, Lewisville, and Denton pickup",
+      "phone": "(214) 500-7174",
+      "phone_e164": "+12145007174",
+      "website": "https://deadset.digital/vhs-to-video-conversion-service/",
+      "source_url": "https://deadset.digital/vhs-to-video-conversion-service/",
+      "source_label": "Dead Set Digital VHS conversion page",
+      "formats": ["VHS"],
+      "service_mode": "Free local pickup and delivery",
+      "price_summary": "$30 per VHS for 1–4 tapes",
+      "price_lines": [
+        {"label": "VHS, 1–4 tapes", "value": "$30 per tape"},
+        {"label": "Larger packages", "value": "As low as $22.50 per tape"},
+        {"label": "10 tapes, on their comparison table", "value": "$250"},
+        {"label": "DVD copy", "value": "+$5 per tape"},
+        {"label": "Basic editing", "value": "+$10"},
+        {"label": "Rush", "value": "+$10 for a stated 3-day turnaround"}
+      ],
+      "turnaround": "7–10 days, as stated on the page",
+      "delivery": "Digital files; DVD copies are an add-on",
+      "notes": [
+        "The service page offers VHS-to-digital conversion with free pickup and delivery in Flower Mound, Denton, Lewisville, Highland Village, Trophy Club, Argyle, Northlake, and The Colony. It does not publish a street address. The phone is (214) 500-7174. The page is written in the first person and says the tapes are handled by the operator, who describes himself as based in Denton.",
+        "Published VHS rates on that page: $30 per tape for 1–4 tapes, and packages “as low as $22.50 per tape.” A comparison table on the same page lists $250 for 10 tapes, which is $25 a tape, not $22.50. The page also names a 5-tape package and a 20-tape bin special without a price in the text. Ask for those rates.",
+        "Add-ons listed in text: DVD copies +$5 per tape, basic editing +$10, and rush service +$10 for a 3-day turnaround. A +$15 flat fee is also printed beside the rush lines. The page layout does not make clear what the $15 covers. Standard turnaround is stated as 7–10 days. The page says pickup can be Tuesday or Thursday.",
+        "This listing does not repeat the customer quotes on that page. This directory did not contact those people."
+      ]
+    },
+    {
+      "id": "panhandle-house",
+      "name": "The Panhandle House",
+      "area": "Denton",
+      "address": {
+        "street": "313 N. Locust St.",
+        "locality": "Denton",
+        "region": "TX",
+        "postal_code": "76201"
+      },
+      "phone": "(940) 349-9229",
+      "phone_e164": "+19403499229",
+      "website": "https://panhandlehouse-dts.com/videocassettes",
+      "source_url": "https://panhandlehouse-dts.com/videocassettes",
+      "source_label": "Digital Transfer Services video price list",
+      "formats": ["VHS", "VHS-C", "Betamax", "8mm videotape", "Hi8", "Digital8", "MiniDV", "HDV", "S-VHS", "U-matic", "BetaSP"],
+      "service_mode": "Local transfer desk",
+      "price_summary": "VHS $19.95; VHS-C $9.95; MiniDV $14.95",
+      "price_lines": [
+        {"label": "VHS", "value": "$19.95 each"},
+        {"label": "VHS-C", "value": "$9.95 each"},
+        {"label": "8mm, Hi8, and Digital8", "value": "$19.95 each"},
+        {"label": "MiniDV", "value": "$14.95 each"},
+        {"label": "HDV", "value": "$19.95 each"},
+        {"label": "Betamax", "value": "$24.95 each"},
+        {"label": "PAL or SECAM VHS", "value": "$29.95"},
+        {"label": "DVD or MiniDVD", "value": "$9.95 each"},
+        {"label": "DVD master, in addition to the transfer", "value": "$14.95 (about 2 hours); extra copies $9.95"}
+      ],
+      "turnaround": "Not published — call to ask",
+      "delivery": "Digital transfer; a DVD or Blu-ray master is a separate charge",
+      "notes": [
+        "Digital Transfer Services at The Panhandle House publishes a consumer price list at 313 N. Locust St., Denton, TX 76201, phone (940) 349-9229. The page requires a 50% deposit with the order.",
+        "A DVD master is $14.95 on top of the transfer and holds about two hours. Tapes longer than 120 minutes are split across more than one disc. Additional disc copies are $9.95.",
+        "The same page prices professional cassettes separately: S-VHS, U-matic, BetaSP, and DVCPRO or DVCam, with a higher rate past 60 minutes. Memory cards and hard-drive camcorders are “ask for a quote.” The page does not state a turnaround time or a photo-scanning service."
+      ]
+    },
+    {
+      "id": "wescanfilm",
+      "name": "WeScanFilm",
+      "area": "Fort Worth",
+      "address": {
+        "street": "12805 Harmon Rd, Suite 215",
+        "locality": "Fort Worth",
+        "region": "TX",
+        "postal_code": "76177"
+      },
+      "phone": "(214) 519-9637",
+      "phone_e164": "+12145199637",
+      "website": "https://www.wescanfilm.com/services",
+      "source_url": "https://www.wescanfilm.com/services",
+      "source_label": "What We Digitize, including photo rates",
+      "extra_sources": [
+        {"label": "VHS and VHS-C transfer", "url": "https://www.wescanfilm.com/video-tape/vhs-vhs-c-transfer.html"},
+        {"label": "Video tape formats and MiniDV capture", "url": "https://www.wescanfilm.com/video-tape.html"}
+      ],
+      "formats": ["VHS", "VHS-C", "MiniDV", "Hi8", "photos", "slides", "negatives", "8mm film", "Super 8", "16mm film", "audio", "scrapbooks"],
+      "service_mode": "In-studio drop-off, or ship to the studio",
+      "price_summary": "Photos from $0.27; tapes quoted per project",
+      "price_lines": [
+        {"label": "Photo, pass-through scanner, 600 DPI", "value": "From $0.27 per image"},
+        {"label": "Photo, flatbed, 600 DPI", "value": "From $0.45 per image"},
+        {"label": "Photo up to 8½×11, 600 DPI", "value": "From $0.75 per image"},
+        {"label": "Photo restoration", "value": "From $15 per image on average"},
+        {"label": "Film, tape, reels, large format", "value": "Quoted per project"}
+      ],
+      "turnaround": "Not published — call to ask",
+      "delivery": "USB or hard drive, or a cloud download; MP4 mentioned for tapes",
+      "hours": "Monday–Friday 8:00 a.m.–5:00 p.m.; Saturday by appointment",
+      "notes": [
+        "WeScanFilm publishes the studio address as 12805 Harmon Rd, Suite 215, Fort Worth, TX 76177, phone (214) 519-9637, email info@wescanfiles.com. Hours on the services page and the VHS page are Monday–Friday 8:00 a.m.–5:00 p.m., Saturday by appointment.",
+        "The services page lists photo scanning, restoration, slides and negatives, scrapbooks, VHS and video tapes, movie reels, maps, and posters. Photo rates above are the “from” prices at 600 DPI, and the page says every collection is quoted and approved before work starts. It says film, tape, reel, and large-format work is quoted per project rather than from a fixed tape menu.",
+        "The VHS page says they transfer VHS and VHS-C in house, deliver files on a flash drive, an external hard drive, or a cloud link, and return the original tapes. It says they also transfer MiniDV and Hi8. The tape page says MiniDV is captured over FireWire and that finished files are encoded to MP4. Cities named on the VHS page include Fort Worth, Haltom City, Arlington, Keller, Southlake, Grapevine, North Richland Hills, Roanoke, Denton, and Dallas.",
+        "The services page says the studio has preserved family history for nearly 20 years. This listing does not repeat a specific tape price that is not on these current pages."
+      ]
+    },
+    {
+      "id": "egami-av",
+      "name": "EGAMI A/V",
+      "area": "Fort Worth",
+      "address": {
+        "street": "5664 Rockport Lane",
+        "locality": "Fort Worth",
+        "region": "TX",
+        "postal_code": "76137"
+      },
+      "phone": "(817) 577-2564",
+      "phone_e164": "+18175772564",
+      "website": "https://egamitapes.com/media-conversion/",
+      "source_url": "https://egamitapes.com/media-conversion/",
+      "source_label": "EGAMI A/V media conversion price list",
+      "formats": ["VHS", "VHS-C", "Video8", "Hi8", "Digital8", "8mm film", "35mm slides", "audio cassette", "reel-to-reel"],
+      "service_mode": "Fort Worth shop; mail return is extra",
+      "price_summary": "First tape $25; later tapes $10 plus 13¢ a minute",
+      "price_lines": [
+        {"label": "First VHS, VHS-C, Video8, Hi8, or Digital8", "value": "$25, any length"},
+        {"label": "Each later tape", "value": "$10 plus $0.13 per minute"},
+        {"label": "Chapter marks", "value": "$7 per DVD"},
+        {"label": "8mm film", "value": "$0.20 per foot"},
+        {"label": "35mm slides to JPEG", "value": "$0.35 per slide"},
+        {"label": "Audio cassette or reel-to-reel", "value": "$20 per CD, no track marks"},
+        {"label": "Track marks on a CD", "value": "$30 per hour"},
+        {"label": "Storage album", "value": "$8"}
+      ],
+      "turnaround": "Not published — call to ask",
+      "delivery": "MP4 or DVD for video; MP3 or CD for audio; files can be emailed",
+      "notes": [
+        "EGAMI A/V publishes this rate card for 5664 Rockport Lane, Fort Worth, TX 76137, phone (817) 577-2564, email info@egamitapes.com. The page is signed by Blake Stiles and describes a small shop. It says they cannot duplicate copyrighted material.",
+        "A DVD is capped at two hours, and an audio CD at 78 minutes. Orders over 15 tapes are told to call for a bulk discount. Digital files can be emailed at no extra charge. Discs and original media returned by mail are subject to postage. The page says to call if you want both files and DVDs, because that can be an additional charge.",
+        "A later tape of 120 minutes is $10 plus $15.60, or $25.60, using the published 13¢-per-minute rate. That is arithmetic from the card, not a separate package they advertise. The page does not list MiniDV or a turnaround time."
+      ]
+    },
+    {
+      "id": "fort-worth-camera",
+      "name": "Fort Worth Camera / The Print Refinery",
+      "area": "Fort Worth",
+      "address": {
+        "street": "6483 Camp Bowie Boulevard",
+        "locality": "Fort Worth",
+        "region": "TX",
+        "postal_code": "76116"
+      },
+      "phone": "(817) 335-3456",
+      "phone_e164": "+18173353456",
+      "website": "https://fortworthcamera.com/services/video-services",
+      "source_url": "https://fortworthcamera.com/services/video-services",
+      "source_label": "Fort Worth Camera video services",
+      "formats": ["VHS", "8mm film", "other video and audio media"],
+      "service_mode": "Local drop-off",
+      "price_summary": "Call for pricing",
+      "turnaround": "Not published — the page says “after some time”",
+      "delivery": "DVD, Blu-ray, USB, or cloud, as the page describes it",
+      "notes": [
+        "Fort Worth Camera’s video page, also labeled The Print Refinery, gives the address 6483 Camp Bowie Boulevard, Fort Worth, TX 76116, and the phone 817-335-3456. It names 1980s VHS and 8mm movie film and says they work with most video media. The how-it-works list also includes audio.",
+        "The introduction says finished footage can go to DVD, Blu-ray, a USB drive, or cloud storage. The step list says to choose DVD or USB. Originals are returned. The page says the print lab has been preserving memories for over 23 years, and that some exceptions apply.",
+        "No price and no day count are published on this page. Ask for both, and ask which formats beyond VHS and 8mm film they currently run."
+      ]
+    },
+    {
+      "id": "action-video-service",
+      "name": "Action Video Service",
+      "area": "Richardson",
+      "address": {
+        "street": "819 W. Arapaho Rd., Suite 23",
+        "locality": "Richardson",
+        "region": "TX",
+        "postal_code": "75080"
+      },
+      "phone": "(972) 437-2021",
+      "phone_e164": "+19724372021",
+      "website": "https://actionvideoservice.com/",
+      "source_url": "https://actionvideoservice.com/",
+      "source_label": "Action Video Service homepage",
+      "formats": ["VHS", "8mm film", "Super 8", "16mm film", "PAL", "SECAM"],
+      "service_mode": "Studio drop-off in Richardson",
+      "price_summary": "Call for pricing",
+      "turnaround": "Less than a week for a small VHS order, as they describe their average",
+      "delivery": "DVD and digital MP4",
+      "hours": "Monday and Friday 9:00 a.m.–4:00 p.m.; Tuesday and Thursday 9:00 a.m.–6:00 p.m.; Saturday 9:00 a.m.–1:00 p.m. Closed Wednesday and Sunday.",
+      "notes": [
+        "Action Video Service lists 819 W. Arapaho Rd., Suite 23, Richardson, TX 75080, phone 972-437-2021. The homepage says they transfer VHS to DVD, archive to digital MP4, and transfer 8mm, Super 8, and 16mm, including PAL and SECAM cassettes.",
+        "They write that a small VHS order averages less than a week, and that originals come back at no charge. The page says to call for pricing. It does not publish a rate card.",
+        "They say they serve the Metroplex, and the city list on the page includes Dallas, Fort Worth, Arlington, Flower Mound, and Denton, among others. The browser title mentions photo and slide transfers. The body text fetched for this listing does not describe still-image scanning or a price for it. Ask if that is what you need.",
+        "The page says they will not transfer adult content."
+      ]
+    },
+    {
+      "id": "amni-video-transfer",
+      "name": "Amni Video Transfer",
+      "area": "Dallas",
+      "address": {
+        "street": "11722 Marsh Lane",
+        "locality": "Dallas",
+        "region": "TX",
+        "postal_code": "75229"
+      },
+      "phone": "(469) 557-8000",
+      "phone_e164": "+14695578000",
+      "website": "https://amnivideo.com/",
+      "source_url": "https://amnivideo.com/",
+      "source_label": "Amni Video Transfer homepage",
+      "formats": ["VHS", "Hi8", "MiniDV", "Super 8", "8mm film", "photos"],
+      "service_mode": "Dallas studio",
+      "price_summary": "Call for pricing",
+      "turnaround": "Not published — call to ask",
+      "delivery": "USB or external hard drive",
+      "notes": [
+        "Amni Video Transfer lists 11722 Marsh Lane, Dallas, TX 75229, and the phone 469-557-8000. The page says they convert VHS, Hi8, MiniDV, and more, and the headline also names Super 8, 8mm film transfer, and photo scanning in the DFW area.",
+        "Delivery named on the page is a USB drive or an external hard drive. The page says prices are competitive and does not publish a number, a turnaround, or hours."
+      ]
+    }
+  ]
+}

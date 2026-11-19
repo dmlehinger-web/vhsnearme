@@ -1,0 +1,23 @@
+{
+  "note": "Leave affiliate_id and affiliate_param empty until a public affiliate or publisher ID is issued. Set both together. affiliate_param is the query-parameter name the network uses (it is not guessed here). scripts/build.py appends that parameter only to the partner's visit link on the mail-in page. Source citations are never rewritten. Leave both fields empty for an ordinary link. Do not put API secrets, passwords, or private tokens in this file.",
+  "partners": {
+    "scanmyphotos": {
+      "name": "ScanMyPhotos",
+      "url": "https://www.scanmyphotos.com/",
+      "affiliate_id": "",
+      "affiliate_param": ""
+    },
+    "legacybox": {
+      "name": "Legacybox",
+      "url": "https://legacybox.com/",
+      "affiliate_id": "",
+      "affiliate_param": ""
+    },
+    "imemories": {
+      "name": "iMemories",
+      "url": "https://www.imemories.com/",
+      "affiliate_id": "",
+      "affiliate_param": ""
+    }
+  }
+}

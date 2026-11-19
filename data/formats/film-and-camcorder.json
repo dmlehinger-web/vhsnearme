@@ -1,0 +1,39 @@
+{
+  "slug": "film-and-camcorder",
+  "order": 3,
+  "nav_label": "Film and camcorder tapes",
+  "title": "8mm film, Super 8, Hi8, and MiniDV",
+  "meta_title": "8mm film, Super 8, Hi8, and MiniDV transfer",
+  "meta_description": "How movie film differs from camcorder tapes, why MiniDV should be captured digitally, and what to tell a shop before you drop a reel off.",
+  "kicker": "Format guide",
+  "lede": "A metal reel of Super 8 and a small Hi8 cassette were sold in the same years and are completely different objects. Film is priced by the foot. Camcorder tapes are priced by the cassette. Mixing them up is how people get a useless quote.",
+  "sections": [
+    {
+      "heading": "Movie film",
+      "paragraphs": [
+        "Regular 8mm, Super 8, and 16mm are film. A projector shines light through the frames. There is no magnetic picture signal to “play.” A lab scans or photographs each frame. Super 8 is the common home-movie reel. A 50-foot Super 8 reel runs a little over three minutes at 18 frames per second, so a per-foot price adds up more slowly than a stack of reels suggests.",
+        "Sound film, silent film, and 16mm are separate setups. Say which one you have, and say if the reel smells strongly of vinegar. That smell is acetate decay. Keep those reels cool and dry and let the lab decide whether they can run."
+      ]
+    },
+    {
+      "heading": "Hi8, Video8, Digital8, and MiniDV",
+      "paragraphs": [
+        "Video8 and Hi8 are analog camcorder tapes in a small cassette. Digital8 stores digital video in a cassette of that same shape. MiniDV is a later digital tape, smaller still. All three need decks that are getting hard to maintain. Call before you drive across town with a single MiniDV tape.",
+        "MiniDV already is digital. A good transfer copies that data, historically over FireWire (IEEE 1394). Running the tape out of the yellow composite plug and re-recording it throws away the picture the camera actually stored. [WeScanFilm in Fort Worth describes that distinction](https://www.wescanfilm.com/video-tape.html) on its tape page: MiniDV over FireWire, Hi8 from the analog signal, then a file a current TV can play.",
+        "Betamax, U-matic, and PAL or SECAM cassettes show up in the same closets. Fewer shops still have the decks. The Dallas–Fort Worth listings say which businesses mention those formats. If the listing is silent, ask. Do not assume."
+      ]
+    },
+    {
+      "heading": "What to hand the shop",
+      "bullets": [
+        "The format printed on the cassette or reel, not just “old home movie.”",
+        "Approximate length. Film is feet. Tapes are minutes.",
+        "Whether you want one file per reel or a compiled movie. Compilation is an editing job and is usually extra.",
+        "A request for the original media back, and a second copy of the file in your own cloud or on a drive that stays at a relative’s house."
+      ],
+      "paragraphs": [
+        "Shops and mail-in labs that publish these formats are linked from the [Dallas–Fort Worth page](/vhsnearme/cities/dallas-fort-worth/) and the [mail-in comparison](/vhsnearme/mail-in/)."
+      ]
+    }
+  ]
+}
