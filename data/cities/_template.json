@@ -1,0 +1,48 @@
+{
+  "slug": "city-name",
+  "name": "City Name",
+  "state": "TX",
+  "state_name": "Texas",
+  "areas": ["Neighborhood or suburb this page should cover"],
+  "meta_title": "VHS and photo digitizing in City Name",
+  "meta_description": "One or two sentences a search result can show. Name the formats and the city. Do not invent a price.",
+  "intro": [
+    "Who this page is for, which nearby towns it includes, and the choice between driving and mailing.",
+    "Tell the reader to call before they drive. Do not claim you visited the shops."
+  ],
+  "checked": "YYYY-MM-DD",
+  "businesses": [
+    {
+      "id": "business-slug",
+      "name": "Business Name",
+      "area": "Neighborhood, ST",
+      "address": {
+        "street": "123 Main St.",
+        "locality": "City",
+        "region": "TX",
+        "postal_code": "00000"
+      },
+      "phone": "(000) 000-0000",
+      "phone_e164": "+10000000000",
+      "website": "https://example.com/the-page-you-verified",
+      "source_url": "https://example.com/the-page-you-verified",
+      "source_label": "Short name of the page you read",
+      "extra_sources": [
+        {"label": "A second page, if the price lives somewhere else", "url": "https://example.com/pricing"}
+      ],
+      "formats": ["VHS"],
+      "service_mode": "Local drop-off",
+      "price_summary": "Call for pricing",
+      "price_lines": [
+        {"label": "VHS", "value": "Call for pricing"}
+      ],
+      "turnaround": "Not published — call to ask",
+      "delivery": "What the site says you receive back, or omit this key",
+      "hours": "Hours copied from the site, or omit this key",
+      "notes": [
+        "One fact per sentence, taken from the source page.",
+        "You may link a source with [visible words](https://example.com/page). No other HTML."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "photos-and-slides",
+  "order": 2,
+  "nav_label": "Photos and slides",
+  "title": "Photos, slides, and negatives",
+  "meta_title": "Photo, slide, and negative scanning",
+  "meta_description": "How photo, slide, and negative scanning is priced, what 300 and 600 DPI mean, and why some labs will not scan an album intact.",
+  "kicker": "Format guide",
+  "lede": "Prints, slides, and negatives are three different scans. A flatbed that is fine for a 4×6 print is often a poor slide scanner. The cheap headline price is usually for loose color prints of a normal size.",
+  "sections": [
+    {
+      "heading": "Prints",
+      "paragraphs": [
+        "Most family stacks are loose 3×5 and 4×6 color prints, plus a smaller pile of larger portraits. Labs price these per image or by the prepaid box. A box price is only a bargain if your prints fit the size rules and you are willing to fill the box.",
+        "300 DPI is enough to reprint a photo at about the size of the original. 600 DPI leaves more room to crop. A 4×6 inch print at 300 DPI is 1200×1800 pixels. At 600 DPI it is 2400×3600. Scanning a blurry snapshot at a higher DPI does not make the snapshot sharp.",
+        "Names and dates written on the back are worth keeping. Some labs offer a second scan of the back for an extra fee. If they do not, photograph the backs yourself before you ship the prints. Write your inventory on a separate list, not across the front of the picture."
+      ]
+    },
+    {
+      "heading": "Albums",
+      "paragraphs": [
+        "Magnetic albums and glued pages are where scans go wrong. Peeling a print can tear it. Leaving it in the album means a slower, more expensive scan, and some mail-in labs refuse the album entirely.",
+        "[ScanMyPhotos says they do not scan photo albums](https://www.scanmyphotos.com/services/photo-scanning.html). Photos have to come out of the album first, and an album sent anyway is not scanned and is not refunded under their stated policy. [ScanCafe charges an extra handling fee per album](https://www.scancafe.com/pricing) and says the album comes back as it arrived. A local shop may scan a page on a flatbed. Ask before you peel anything."
+      ]
+    },
+    {
+      "heading": "Slides and negatives",
+      "paragraphs": [
+        "35mm slides and negatives need a film scanner or a copy setup made for film. Dust, color fade, and the cardboard or plastic mount all change the price. “Starting at” a few dozen cents per frame is common, and 120 medium-format negatives cost more because each frame is larger.",
+        "Resolution is often described as 2000 DPI (about 6 megapixels for a 35mm frame) or 4000 DPI (about 16 megapixels). The lower number is enough for a normal print. The higher number matters if you want a big enlargement or a heavy crop. Confirm which one the headline price includes.",
+        "On November 19, 2026, [ScanMyPhotos’ slide page](https://www.scanmyphotos.com/services/slide-scanning.html) listed a slide box at $192 (shown reduced from $320), individual slides starting at 65¢ with a $20 minimum, and carousel scanning starting at $85. Their [negative page](https://www.scanmyphotos.com/services/negative-scanning.html) listed 35mm frames starting at 35¢ and 120 negatives starting at $1.95 per frame. Those are sale-style pages. Open them before you order.",
+        "Local shops that name slides, negatives, or prints on their own sites are marked on the [Dallas–Fort Worth page](/vhsnearme/cities/dallas-fort-worth/). Bulk mail-in print prices are on the [comparison](/vhsnearme/mail-in/)."
+      ]
+    }
+  ]
+}

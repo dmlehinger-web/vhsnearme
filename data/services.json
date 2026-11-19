@@ -1,0 +1,155 @@
+{
+  "meta_title": "Mail-in VHS and photo conversion compared",
+  "meta_description": "Published prices and turnaround for iMemories, Legacybox, Southtree, ScanCafe, and ScanMyPhotos, each linked to the company page the figure came from.",
+  "title": "Mail-in conversion, side by side",
+  "lede": "These five companies publish a price for digitizing tapes, film, or photos and will take a box in the mail. The numbers were read from their sites on November 19, 2026. Sales, codes, and add-ons move. Open the source link before you pay.",
+  "intro": [
+    "A kit price and a per-tape price are not the same kind of number. Read the unit, then add shipping of the empty box, the drive or the discs, and any cloud fee after the trial. Order on this page follows how the company charges. It is not a ranking, and nobody paid for a place on the list.",
+    "Southtree’s videotape page says Southtree is now part of Legacybox and that checkout finishes on Legacybox.com. They are related brands with two published price lists, not two independent labs you can assume are bidding against each other.",
+    "Worked examples below are arithmetic on the published rate. They are not a cart total. A tape longer than the company’s included length, a sale code that expires, or a drive you add at checkout will change the bill."
+  ],
+  "examples": [
+    {
+      "heading": "Ten ordinary VHS tapes",
+      "paragraphs": [
+        "[ScanCafe](https://www.scancafe.com/pricing) lists $28 per tape. Ten tapes of two hours or less are $280 before a drive or shipping. A tape longer than two hours is billed per two-hour block, so a five-hour tape is three charges ($84), not one.",
+        "[iMemories](https://www.imemories.com/pricing) lists $29.99 per tape, and the same page shows $14.99 after savings with code SAVE50. Ten tapes are $299.90 at the regular rate, or $149.90 if that code still applies to every tape. Digital download of the masters is listed as free. Cloud after the included 30-day trial is $7.99 a month or $49.99 a year.",
+        "[Legacybox](https://legacybox.com/pages/pricing) lists the 10-item Family kit at $319.98. One tape is one item, so ten tapes fill the kit. One item can instead be a set of 25 photos. The [shipping help page](https://help.legacybox.com/en-US/what-are-my-shipping-options-and-how-much-do-they-cost-476967) lists $15.95 standard delivery for the empty 10-item kit. The label that sends your media back, and the trip home for the finished order, are described as included.",
+        "[Southtree’s help center](https://help.southtree.com/en-US/how-much-does-it-cost-314965) lists 10 tapes at $169.99 and says that price includes one output (a drive, a download, or a disc set). The [shop page](https://southtree.com/pages/pricing) headlines tapes at $15 each, and 10 × $15 is $150, not $169.99. Those two official pages do not describe one formula. The [videotape product page](https://southtree.com/products/vhs-to-dvd-service) says checkout now finishes at Legacybox and quotes about 4–6 weeks.",
+        "[ScanMyPhotos’ VHS-to-DVD page](https://www.scanmyphotos.com/video-transfer/VHS-to-DVD.html) headlines $31 per tape and $434 for a box of up to 14 tapes. The FAQ on that same page also says 14 tapes for $371.90, and in another answer says the box is $245. Do not treat any of those as the price until the cart shows one number. A 2019 [company blog](https://www.scanmyphotos.com/blog/2019/07/how-to-digitize-vhs-tapes.html) said ScanMyPhotos was ending VHS conversion to focus on photos. The product page was still up on the day this directory was checked."
+      ]
+    },
+    {
+      "heading": "About 1,800 loose prints",
+      "paragraphs": [
+        "[ScanMyPhotos](https://www.scanmyphotos.com/services/photo-scanning.html) shows a photo scanning box at $169, reduced from $338 on that page. A [company article](https://www.scanmyphotos.com/blog/2026/04/digitize-old-family-photos-11.html) says the prepaid box holds about 1,800 eligible prints for $169, shipping included under the offer’s terms. That is the bulk-print deal. It is not a slide deal, and they do not scan albums.",
+        "The same company’s [Family Generation Collection](https://www.scanmyphotos.com/photo-scanning/family-generation-collection.html) is six of those boxes for $940, shown reduced from $1,185, with about 1,800 prints per box. They describe that as around 9¢ a photo. 600 DPI is an added $560 on that page. Without the express add-on ($550 for the six boxes), they say typical turnaround is 3–5 weeks.",
+        "[ScanCafe](https://www.scancafe.com/pricing) lists photos, 35mm slides, and 35mm negatives at $0.48 per image. 1,800 images at that rate are $864, before album fees or express. You can discard up to 20% of photo scans and pay only for what you keep. [iMemories](https://www.imemories.com/pricing) lists 99¢ a photo, or 49¢ with the savings price shown next to code SAVE50. 1,800 photos at 49¢ are $882, and at 99¢ are $1,782. [Southtree’s shop page](https://southtree.com/pages/pricing) headlines photos at 25¢, which would be $450 for 1,800 prints if checkout actually uses that rate."
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "imemories",
+      "name": "iMemories",
+      "affiliate_key": "imemories",
+      "order": 1,
+      "url": "https://www.imemories.com/pricing",
+      "where": "Scottsdale, Arizona",
+      "formats": ["VHS", "VHS-C", "Betamax", "Video8", "Hi8", "Digital8", "MiniDV", "8mm film", "Super 8", "16mm film", "prints", "slides", "negatives", "DVD", "MiniDVD"],
+      "table_price": "$29.99 / tape ($14.99 shown with SAVE50)",
+      "table_turnaround": "About 3 weeks after arrival and approval",
+      "table_delivery": "Free download; cloud, USB, or disc extra",
+      "summary": "Per-tape and per-photo pricing, with the master files listed as a free download. The cloud app is a separate subscription after a 30-day trial.",
+      "details": [
+        "The [pricing page](https://www.imemories.com/pricing) lists videotapes at $29.99 each and an “after savings” price of $14.99 with code SAVE50. Movie film is $29.99 per 50 feet, also shown at $14.99 with that code. Photos are 99¢, shown at 49¢ with the code. Optional AI enhancement is listed at $9.99, shown at $4.99, per tape or 50 feet of film, and at 29¢, shown at 14¢, per photo. Another line on the page shows the discounted photo enhancement at 15¢. Use the cart.",
+        "Turnaround on that page: “It only takes 3 weeks to complete your digitization order,” counted from when they receive the box and you approve the order until the files are online. The [how-it-works page](https://www.imemories.com/works) says they inventory the box and send a quote you approve.",
+        "Download of the digital masters is listed as free, which matters: you can take your files and stop. iMemories Cloud is $7.99 a month or $49.99 a year after the 30-day trial included with the price display. A USB thumb drive starts at $39.99, shown at $19.99, for 8GB. DVD or Blu-ray is $19.99 a disc, shown at $9.99.",
+        "The [FAQ](https://www.imemories.com/faq) lists videotapes (VHS, VHS-C, Betamax, 8mm, Hi8, Video8, Digital8, MiniDV, MicroMini), 8mm, Super 8, and 16mm film with or without sound, prints, slides, negatives, DVDs, and MiniDVDs. It says they do not develop film canisters and, on a related answer, do not digitize audio cassettes. They will not transfer copyrighted movies or TV. The pricing page gives the lab address as 9160 E. Del Camino Drive, Suite B1, Scottsdale, AZ 85258, and the phone 800-845-7986."
+      ],
+      "sources": [
+        {"label": "Pricing", "url": "https://www.imemories.com/pricing"},
+        {"label": "Formats FAQ", "url": "https://www.imemories.com/faq"},
+        {"label": "How the order works", "url": "https://www.imemories.com/works"}
+      ]
+    },
+    {
+      "id": "scancafe",
+      "name": "ScanCafe",
+      "order": 2,
+      "url": "https://www.scancafe.com/pricing",
+      "where": "Indianapolis, Indiana (stated for USA scanning)",
+      "formats": ["VHS", "S-VHS", "VHS-C", "Hi8", "MiniDV (SD)", "Betamax", "audio cassette", "prints", "35mm slides", "35mm negatives", "8mm film", "Super 8", "16mm"],
+      "table_price": "$28 / tape · $0.48 / photo · $0.34 / foot of film",
+      "table_turnaround": "Kits typically 5–6 weeks; rush 8–10 days",
+      "table_delivery": "Download; hard drive extra",
+      "summary": "Pay for each item, or fill a flat-rate kit. Photo scans can be reviewed online, and you can discard some of them before you pay the balance.",
+      "details": [
+        "The [pricing page](https://www.scancafe.com/pricing) lists $28 per tape for VHS, S-VHS, VHS-C, Hi8, standard-definition MiniDV, Betamax, and audio cassette. Tapes over two hours are charged per two hours. A five-hour VHS is three tape charges. Photos up to 8×10, 35mm slides, and 35mm or APS negatives are $0.48 each. You may discard up to 20% of scanned photos and pay for the ones you keep. 8mm, Super 8, and 16mm film are $0.34 per foot.",
+        "Other published rates on that page: discs and cards $24 each, small-format film $1.48, medium format $2.48, large format $5.48, documents and photos over 8×10 up to 11×14 at $1.25. Albums are an extra $9.95 each. Slide carousels are an extra $8. Express processing is an extra $0.13 per scan and is described as scans ready for review within 10 business days, covering up to 1,000 standard photos, 10 tapes, or 1,000 feet of film.",
+        "Flat kits on the same page: Moments $142.99 (about 3 VHS, or 400 prints, or 4 small reels), Decades $359.99, Lifetime $479.99, Generations $1,425. Kits are described as typically 5–6 weeks after the box arrives, or 8–10 days with rush. Special formats inside a kit can cost extra.",
+        "The [video how-it-works page](https://www.scancafe.com/how/video-how-it-works) says USA standard orders are scanned in Indianapolis and that you pay roughly 75% when you order. It also says they will not repair a tape that will not play on their equipment, and that each tape is $28 even if it only has a few minutes. Their [VHS service page](https://www.scancafe.com/services/video/vhs-to-digital-conversion) states video capture at 720×480 and a $1,000 compensation promise if an item is lost or damaged at their facility. A portable hard drive of MPEG-4 files is offered for an extra charge. The pricing page does not publish that drive’s price. Phone on the pricing page: 1-866-234-3909."
+      ],
+      "sources": [
+        {"label": "Pricing", "url": "https://www.scancafe.com/pricing"},
+        {"label": "How video orders work", "url": "https://www.scancafe.com/how/video-how-it-works"},
+        {"label": "VHS service page", "url": "https://www.scancafe.com/services/video/vhs-to-digital-conversion"}
+      ]
+    },
+    {
+      "id": "legacybox",
+      "name": "Legacybox",
+      "affiliate_key": "legacybox",
+      "order": 3,
+      "url": "https://legacybox.com/pages/pricing",
+      "where": "Chattanooga, Tennessee",
+      "formats": ["VHS", "VHS-C", "Hi8", "Digital8", "8mm videotape", "MiniDV", "MicroMV", "Betamax", "8mm film", "Super 8", "16mm", "prints", "negatives", "35mm slides", "126 slides", "audio cassette", "reel-to-reel", "DVD"],
+      "table_price": "Kits $69.98 (2 items) to $2,499.98 (80 items)",
+      "table_turnaround": "4–6 weeks standard on the product page",
+      "table_delivery": "App for 30 days; USB or discs optional",
+      "summary": "Prepaid kits sized by item count. One item is one tape, one reel, or one set of 25 photos. The empty kit’s trip to you is a separate shipping charge.",
+      "details": [
+        "The [pricing page](https://legacybox.com/pages/pricing) listed these kit prices on November 19, 2026: Starter $69.98 for up to 2 items, Family $319.98 for up to 10, Closet $639.98 for up to 20, Trunk $1,249.98 for up to 40, and Vault $2,499.98 for up to 80. One item is one tape, one film reel, or one set of 25 photos, and the page says you can mix them. Tape formats named there: Hi8, Digital8, 8mm video, VHS, MicroMV, MiniDV, Betamax, VHS-C. Also prints, negatives, 35mm and 126 slides, 8mm, Super 8, and 16mm, reel-to-reel and audio cassettes, and DVDs and CDs.",
+        "The price includes instructions, barcodes, a prepaid label to send the filled box back, hand digitizing, and digital delivery in the Legacybox app free for 30 days. A thumb drive or a disc set is described as optional. This directory is not quoting a drive price, because that page does not state a single add-on number.",
+        "The [VHS product page](https://legacybox.com/products/vhs-conversion) labels standard processing as free and about 4–6 weeks, expedited as $14.99 and 2–3 weeks, and rush as $19.99 and 1 week. It says the work happens at a 110,000 square foot campus in Chattanooga, Tennessee. The [timing help article](https://help.legacybox.com/en-US/how-long-does-legacybox-take-476859) also says standard is about 4–6 weeks, then describes expedited as 3–4 weeks and guaranteed rush as 10 business days, with the upgrade price depending on kit size and open slots. Read the checkout you are actually looking at.",
+        "The [shipping help article](https://help.legacybox.com/en-US/what-are-my-shipping-options-and-how-much-do-they-cost-476967) prices delivery of the empty kit to you. Standard delivery is $12.95 (2-item), $15.95 (10-item), $19.95 (20-item), and $24.95 (40-item). Ground and express cost more. The return label in the kit is prepaid UPS, and they say they cover shipping the finished order back."
+      ],
+      "sources": [
+        {"label": "Kit pricing", "url": "https://legacybox.com/pages/pricing"},
+        {"label": "VHS product page", "url": "https://legacybox.com/products/vhs-conversion"},
+        {"label": "How long it takes", "url": "https://help.legacybox.com/en-US/how-long-does-legacybox-take-476859"},
+        {"label": "Shipping prices", "url": "https://help.legacybox.com/en-US/what-are-my-shipping-options-and-how-much-do-they-cost-476967"}
+      ]
+    },
+    {
+      "id": "southtree",
+      "name": "Southtree",
+      "order": 4,
+      "url": "https://southtree.com/pages/pricing",
+      "where": "United States; checkout is now Legacybox",
+      "formats": ["VHS and other videotapes", "prints", "slides", "negatives", "film reels", "audio"],
+      "table_price": "Shop page: $15 / tape · 25¢ / photo",
+      "table_turnaround": "About 4–6 weeks once the order arrives",
+      "table_delivery": "Download, thumb drive, or discs",
+      "summary": "A lower published per-tape price than Legacybox’s kit math, from a brand whose own product page now sends you to Legacybox to finish the order.",
+      "details": [
+        "The [shop page](https://southtree.com/pages/pricing) headlines tapes at $15 each, photos at 25¢, film at $25 each, and audio at $15 each. The phone on that page is 423-228-2274.",
+        "The [help-center price article](https://help.southtree.com/en-US/how-much-does-it-cost-314965) lists tape bundles that it says include one output: 2 tapes $39.99, 5 for $84.99, 10 for $169.99, and on up to 40 tapes for $649.99. That 10-tape bundle is not 10 × $15. The same article lists film at $35 per reel, while the shop page says $25. Photo bundles there run from 100 photos at $34.99 to 1,000 at $269.99. If you are between sizes, the article says extra items are $17.99. Treat the cart as the price.",
+        "The [VHS product page](https://southtree.com/products/vhs-to-dvd-service) says Southtree is now part of Legacybox and that you finish the order at Legacybox.com. It lists about a 4–6 week turnaround after they receive the order, a prepaid return label, and up to six hours of one tape onto a DVD or a digital file. It describes digitizing at a 52,000 square foot U.S. campus. It does not, on that page, promise a street address."
+      ],
+      "sources": [
+        {"label": "Shop pricing", "url": "https://southtree.com/pages/pricing"},
+        {"label": "Help-center price list", "url": "https://help.southtree.com/en-US/how-much-does-it-cost-314965"},
+        {"label": "VHS product page", "url": "https://southtree.com/products/vhs-to-dvd-service"}
+      ]
+    },
+    {
+      "id": "scanmyphotos",
+      "name": "ScanMyPhotos",
+      "affiliate_key": "scanmyphotos",
+      "order": 5,
+      "url": "https://www.scanmyphotos.com/services/photo-scanning.html",
+      "where": "Irvine, California",
+      "formats": ["prints", "slides", "negatives", "VHS", "VHS-C", "Hi8", "MiniDV (see caveat)"],
+      "table_price": "Photo box $169; VHS page disagrees with itself",
+      "table_turnaround": "Photo collection 3–5 weeks; VHS page says 2–4 weeks",
+      "table_delivery": "Digital download; originals returned if you select that",
+      "summary": "The clearest offer here is bulk scanning of loose prints. The VHS product page is still online and lists several different box prices. Confirm video is actually for sale before you send tapes.",
+      "details": [
+        "The [photo scanning page](https://www.scanmyphotos.com/services/photo-scanning.html) shows the photo box at $169, reduced from $338, and individual photo scans “as low as 20¢” with a $25 minimum. It offers 300 or 600 DPI. It states that photos must be removed from albums, that albums will not be scanned, and that album orders are not refunded. All sales of digitizing services are final once the order is placed, with narrow exceptions they list for billing errors and orders they cannot complete.",
+        "A [ScanMyPhotos article dated in 2026](https://www.scanmyphotos.com/blog/2026/04/digitize-old-family-photos-11.html) says the prepaid box holds about 1,800 eligible prints for $169, with two-way shipping included under that offer. The [six-box collection](https://www.scanmyphotos.com/photo-scanning/family-generation-collection.html) is $940, shown reduced from $1,185. Each box averages about 1,800 photos. They call that about 9¢ a photo and about 10,800 to 11,000 photos across six boxes. 600 DPI is an added $560. Express scanning is an added $550 for the six boxes. Without express, they say 3–5 weeks. Work is described as done in Irvine, California. The prepaid boxes have to be received within nine months of the order or they expire with no refund, according to that page.",
+        "Slides are a different service. The [slide page](https://www.scanmyphotos.com/services/slide-scanning.html) shows a slide box at $192, reduced from $320, individual slides starting at 65¢ with a $20 minimum, and carousels starting at $85. Standard scanning is described as 2,000 DPI and premium as 4,000 DPI. The [negative page](https://www.scanmyphotos.com/services/negative-scanning.html) lists 35mm starting at 35¢ a frame and 120 negatives starting at $1.95 a frame.",
+        "Video is the messy part. The [VHS-to-DVD page](https://www.scanmyphotos.com/video-transfer/VHS-to-DVD.html) headlines $31 per tape and $434 a box for up to 14 tapes, free shipping, one archival DVD per tape, and a 2–4 week average turnaround. The FAQ on that page says 14 tapes for $371.90, and another answer says the box is $245. Extra tapes beyond the allotment are listed at $19.95. The page says it accepts VHS, VHS-C, MiniDV, or Hi8 in NTSC, and also says it does not accept BetaMax and other videocassettes. A later FAQ answer limits the box to VHS, VHS-C, and Hi8. Damaged tapes are returned without transfer and without credit. A [July 2019 blog post](https://www.scanmyphotos.com/blog/2019/07/how-to-digitize-vhs-tapes.html) said the company was closing VHS conversion. The product page was still published on November 19, 2026. Call or check the cart before you mail tapes."
+      ],
+      "sources": [
+        {"label": "Photo scanning", "url": "https://www.scanmyphotos.com/services/photo-scanning.html"},
+        {"label": "What the photo box holds", "url": "https://www.scanmyphotos.com/blog/2026/04/digitize-old-family-photos-11.html"},
+        {"label": "Six-box photo collection", "url": "https://www.scanmyphotos.com/photo-scanning/family-generation-collection.html"},
+        {"label": "Slides", "url": "https://www.scanmyphotos.com/services/slide-scanning.html"},
+        {"label": "Negatives", "url": "https://www.scanmyphotos.com/services/negative-scanning.html"},
+        {"label": "VHS to DVD", "url": "https://www.scanmyphotos.com/video-transfer/VHS-to-DVD.html"},
+        {"label": "2019 note about ending VHS", "url": "https://www.scanmyphotos.com/blog/2019/07/how-to-digitize-vhs-tapes.html"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "meta_title": "About VHS Near Me and affiliate disclosure",
+  "meta_description": "Who publishes VHS Near Me, how listings are researched, and how affiliate links to ScanMyPhotos, Legacybox, and iMemories will work once IDs are added.",
+  "title": "About this directory",
+  "lede": "VHS Near Me is an independent directory of digitizing services. It is not a transfer lab, and it does not take possession of anyone’s tapes or photos.",
+  "sections": [
+    {
+      "heading": "How a listing gets here",
+      "paragraphs": [
+        "A person checks the business’s own website, writes down only what that page says, and saves it in a data file. The build script turns those files into the pages on this site. The source link stays on the listing so you can see the same page.",
+        "If the business does not publish a price, the listing says “Call for pricing.” If it does not publish a turnaround time, the listing says that too. This site does not invent businesses, review scores, star ratings, or prices.",
+        "The first version was not a personal visit to each shop. Hours and prices change. Treat every figure as a starting point dated on the page, then confirm it with the business before you leave your media there."
+      ]
+    },
+    {
+      "heading": "Affiliate disclosure",
+      "paragraphs": [
+        "Some outbound links may later earn a commission. The partners set up for that are ScanMyPhotos, Legacybox, and iMemories. Their entries live in data/affiliates.json.",
+        "Right now each affiliate_id is empty. While it is empty, the visit link on the mail-in page is the company’s ordinary URL. There is no affiliate code and no paid placement. When a public affiliate or publisher ID is added, along with the query-parameter name that network uses, the build script appends it to that visit link and marks the link sponsored. Source citations stay plain, so the page linked as a source is the page the fact came from. A commission, if one is ever paid, does not change the price you pay the company.",
+        "Listings are not ordered by who might pay. City pages are local businesses with no affiliate relationship in this version. Mail-in companies are grouped by how they charge (per item, by the kit, or as a photo lab), which is stated on that page. Nobody paid for a slot.",
+        "Do not put API secrets, passwords, or private tokens in the repository. An affiliate ID is a public tracking code. It belongs in data/affiliates.json only after you intend the live site to use it. .gitignore already ignores .env and .env.* files."
+      ]
+    },
+    {
+      "heading": "What this site does not do",
+      "paragraphs": [
+        "There is no account, no checkout, and no upload. There are no third-party analytics, advertising pixels, or web fonts. Pages are static HTML and CSS served from the repository.",
+        "Corrections are edits to the data files. The recipe for a new city page is in CONTRIBUTING.md. A wrong price should be fixed by re-reading the source page, not by guessing a better number."
+      ]
+    }
+  ]
+}
